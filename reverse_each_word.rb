@@ -3,7 +3,8 @@ def reverse_each_word(string)
   array.each do |word|
     word = word.split("")
     word.each_with_index do |item,index|
-      word
-    end 
+      word.unshift(word.pop)
+    end
+    p word 
   end 
 end 
