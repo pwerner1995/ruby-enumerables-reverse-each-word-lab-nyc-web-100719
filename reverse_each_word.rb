@@ -4,5 +4,6 @@ def reverse_each_word(string)
     word_arr = word.split("")
     word_arr.reverse 
     word= word_arr.join("") 
+    p word
   end 
 end 
