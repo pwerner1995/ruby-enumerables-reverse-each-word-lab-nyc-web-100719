@@ -7,6 +7,6 @@ def reverse_each_word(string)
     word= word_arr.join("") 
     array[index] = word 
   end 
-  array.join(" ")
+  array = array.join(" ")
   return array 
 end 
